@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"> 
+
+<h:head>
+	<meta charset="UTF-8"></meta>
+    <title>Pharmacy</title>
+</h:head> 
+<h:body> 
+	
+	<c:choose>
+	    <c:when test="#{defaultUserActionBean.checkUserSession()}">
+	        <p:panel header="Logged"> 
+				<h:form>
+					<b><p:outputLabel value="Name and surname: " /></b>
+					<p:outputLabel value="#{defaultUserActionBean.checkUserName()}" />
+					<p:outputLabel value=" " />
+					<p:outputLabel value="#{defaultUserActionBean.checkUserSurname()}" />
+					<br/>
+					<br/>
+					<b><p:outputLabel value="Email: " /></b>
+					<p:outputLabel value="#{defaultUserActionBean.checkUserEmail()}" />
+				</h:form>
+			</p:panel> 
+			
+			<br />
+			
+			<h:form enctype="multipart/form-data">
+				<p:panel id="panelProduct" header="Product">
+				<p:growl id="growl" showDetail="true" life="3000"/>  
+					<h:panelGrid columns="2" cellpadding="5">
+						<p:outputLabel for="name" value="Name: " />
+						<p:inputText id="name" value="#{defaultProductBean.product.name}"></p:inputText>
+						<p:outputLabel for="productLabel" value="Product label: " />
+						<p:inputText id="productLabel" value="#{defaultProductBean.product.productLabel}"></p:inputText>
+						<p:outputLabel for="price" value="Price: " />
+						<p:inputText id="price" value="#{defaultProductBean.product.price}"></p:inputText>
+						<p:outputLabel for="expirationDate" value="Expiration date: " />
+						<p:inputText id="expirationDate" value="#{defaultProductBean.product.expirationDate}"></p:inputText>
+						<p:outputLabel for="refunded" value="Refunded [%]: " />
+						<p:inputText id="refunded" value="#{defaultProductBean.product.refunded}"></p:inputText>
+						<p:outputLabel for="type" value="Type: " />
+						<p:inputText id="type" value="#{defaultProductBean.product.type}"></p:inputText>
+				
+						<p:outputLabel value="Image: "/>
+						<div>
+						    <p:fileUpload value="#{defaultProductBean.file}" mode="simple" skinSimple="true"/>
+						    <p:commandButton value="Submit" ajax="false" actionListener="#{defaultProductBean.setImageLink()}"/>
+						 </div>
+					</h:panelGrid> 
+				</p:panel>
+				
+				<p:toolbar>
+			        <f:facet name="left">
+			        	<div>
+							<c:choose>
+								<c:when test="#{defaultProductBean.product.id > 0}">
+									<div>
+										<p:commandButton value="Update product"
+											action="#{defaultProductActionBean.updateProduct()}" ajax="false" style="margin-right:10px;" ></p:commandButton>
+											
+										<p:commandButton value="Reset" action="#{defaultProductActionBean.clean()}" ajax="false"/>
+									</div>
+								</c:when>
+								<c:otherwise>
+									<p:commandButton value="Add product"
+										action="#{defaultProductActionBean.addProduct()}" update="growl" ajax="false"></p:commandButton>
+								</c:otherwise>
+							</c:choose>
+						</div>
+			        </f:facet>
+			    </p:toolbar>
+				
+			</h:form>
+			
+			<br />
+			
+			<p:dataTable value="#{defaultProductBean.products}" var="p" 
+			   			border="1"
+			  			reflow="true" rows="5" paginator="true" style="margin-top:10px">
+					   			
+				<p:column headerText="Id" sortBy="#{p.id}">
+		        	<h:outputText value="#{p.id}" />
+		       	</p:column>
+						    			
+				<p:column headerText="Name" sortBy="#{p.name}">
+		       		<h:outputText value="#{p.name}" />
+		       	</p:column>
+						    			
+				<p:column headerText="Product label" sortBy="#{p.productLabel}">
+		        	<h:outputText value="#{p.productLabel}" />
+		       	</p:column>
+		       	
+		       	<p:column headerText="Price" sortBy="#{p.price}">
+		        	<h:outputText value="#{p.price}" />
+		       	</p:column>
+		       	
+		       	<p:column headerText="Available" sortBy="#{p.available}">
+		        	<h:outputText value="#{p.available}" />
+		       	</p:column>
+		       	
+		       	<p:column headerText="Expiration date" sortBy="#{p.expirationDate}">
+		        	<h:outputText value="#{p.expirationDate}" />
+		       	</p:column>
+		       	
+		       	<p:column headerText="Refunded" sortBy="#{p.refunded}">
+		        	<h:outputText value="#{p.refunded}" />
+		       	</p:column>
+		       	
+		       	<p:column headerText="Type" sortBy="#{p.type}">
+		        	<h:outputText value="#{p.type}" />
+		       	</p:column>
+						    	
+				<p:column>
+					<h:form>
+						<p:commandButton action="#{defaultProductActionBean.getProduct(p.id)}" value="Edit" ajax="false"/>
+					</h:form>
+				</p:column>
+						    	
+				<p:column>
+					<h:form>
+						<p:commandButton action="#{defaultProductActionBean.removeProduct(p.id)}" value="Delete" ajax="false"/>
+					</h:form>
+				</p:column>		    			
+			</p:dataTable>
+			
+			<br/>
+			
+			<h:form>
+		   		<p:commandButton action="filtr.xhtml" value="Filter table" />
+		   	</h:form>
+		   	
+		  	<p:separator/>
+		   	
+		   	<h:form>
+		   		<p:outputLabel for="prescriptionCode" value="Prescription code: " />
+				<p:inputText id="prescriptionCode" value="#{prescriptionCode}"
+					validatorMessage="Prescription code: Wrong prescription code. Should contain only the digits 0 to 9 and have 9 digits."> 
+					<f:validateRegex pattern="^[0-9]{9}$" />
+				</p:inputText>
+				<p:outputLabel></p:outputLabel>
+		   
+		   		<p:commandButton action="#{defaultPrescriptionActionBean.completePrescription(prescriptionCode)}" value="Complete prescription"
+		   		ajax="false"/>
+		   	</h:form>
+		
+			<p:separator/>
+			
+			<h:form>
+		   		<p:commandButton action="#{defaultUserActionBean.logout()}" value="Logout" />
+		   	</h:form>
+		   	
+		   	<br/>
+		   	
+		   	<h:form>
+		   		<p:commandButton action="index.xhtml?faces-redirect=true" value="Homepage" />
+		   	</h:form>
+	    </c:when>
+	    <c:otherwise>
+	        #{defaultUserActionBean.redirectIfNoSession()}
+	    </c:otherwise>
+	</c:choose>
+
+</h:body> 
+</html>

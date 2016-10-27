@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;messages&apos; to &apos;pl.kielce.tu.pharmacy.web.messages&apos;&#x0D;&#x0A;- Original project: &apos;web-shared&apos;&#x0D;&#x0A;- Original element: &apos;web-shared/src/messages&apos;&#x0D;&#x0A;- Renamed element: &apos;web-shared/src/pl.kielce.tu.pharmacy.web.messages&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;messages&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;messages" name="pl.kielce.tu.pharmacy.web.messages" qualified="false" references="true" stamp="1465334944476" textual="false" version="1.0"/>
+</session>

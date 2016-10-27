@@ -1,0 +1,25 @@
+1466264318899	Delete element
+1466264359410	Delete elements
+1466264546313	Encapsulate field 'productsByType'
+1466264565458	Pull up members to 'ProductBean'
+1466266655779	Pull up members to 'ProductBean'
+1466277917710	Pull up members to 'TransactionActionBean'
+1466284542761	Pull up members to 'TransactionBean'
+1466284656238	Pull up members to 'TransactionBean'
+1466284773751	Pull up members to 'TransactionBean'
+1466285714788	Pull up members to 'TransactionActionBean'
+1466287130253	Pull up members to 'TransactionActionBean'
+1466287361468	Encapsulate field 'productList'
+1466287460050	Pull up members to 'TransactionBean'
+1466287494140	Pull up members to 'TransactionActionBean'
+1466288394215	Pull up members to 'TransactionActionBean'
+1466289275994	Pull up members to 'TransactionActionBean'
+1466293604407	Delete element
+1466296075701	Encapsulate field 'percent'
+1466299056150	Encapsulate field 'percent'
+1466299073294	Pull up members to 'TransactionBean'
+1466299096227	Pull up members to 'ProductActionBean'
+1466302525318	Pull up members to 'Product'
+1466333537892	Delete element
+1466333838567	Delete elements
+1466333994783	Delete elements

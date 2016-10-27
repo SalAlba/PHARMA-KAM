@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="web-shared"/>
+  <project name="core-shared"/>
+  <project name="core-api"/>
+  <project name="web-api"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-jaxrs-3.0.11.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/persistence/api/main/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/xml/soap/api/main/jboss-saaj-api_1.3_spec-1.0.3.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/ejb3/main/jboss-ejb3-ext-api-2.1.0.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/websocket/api/main/jboss-websocket-api_1.1_spec-1.1.1.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/jws/api/main/jsr181-api-1.0-MR1.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/picketbox/main/picketbox-infinispan-4.9.2.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/glassfish/javax/json/main/javax.json-1.0.3.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/picketbox/main/picketbox-4.9.2.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/as/controller-client/main/wildfly-controller-client-1.0.2.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/annotation/api/main/jboss-annotations-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/servlet/jsp/api/main/jboss-jsp-api_2.3_spec-1.0.1.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-3.0.11.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/enterprise/api/main/cdi-api-1.2.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/security/auth/message/api/main/jboss-jaspi-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/dmr/main/jboss-dmr-1.3.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-3.0.11.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/wsdl4j/api/main/wsdl4j-1.6.3.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/interceptor/api/main/jboss-interceptors-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_3.1_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/xml/ws/api/main/jboss-jaxws-api_2.2_spec-2.0.2.Final.jar"/>
+  <path value="E:/Java EE/WorkspacePharmacyFinal/web-impl/WebContent/WEB-INF/lib/primefaces-5.2.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.2.jar/meta-inf/faces-config.xml" project="web-impl"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.2.jar/meta-inf/primefaces-p.taglib.xml" project="web-impl"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.2.jar/meta-inf/primefaces-pm.taglib.xml" project="web-impl"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/el/api/main/jboss-el-api_3.0_spec-1.0.4.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/servlet/jstl/api/main/jboss-jstl-api_1.2_spec-1.1.2.Final.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/c-1_0-rt.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/c-1_0.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/c-1_1.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/c.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/fmt-1_0-rt.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/fmt-1_0.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/fmt.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/fn.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/permittedtaglibs.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/scriptfree.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/sql-1_0-rt.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/sql-1_0.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/sql.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/x-1_0-rt.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/x-1_0.tld" project="web-impl"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.1.2.Final.jar/meta-inf/x.tld" project="web-impl"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/hibernate/validator/main/hibernate-validator-5.1.3.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/logging/main/jboss-logging-3.2.1.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/batch/api/main/jboss-batch-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/activation/api/main/activation-1.1.1.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/inject/api/main/javax.inject-1.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/security/jacc/api/main/jboss-jacc-api_1.5_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/xml/bind/api/main/jboss-jaxb-api_2.2_spec-1.0.4.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/enterprise/concurrent/api/main/jboss-concurrency-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/faces/api/main/jboss-jsf-api_2.2_spec-2.2.12.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/transaction/api/main/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/validation/api/main/validation-api-1.1.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/xml/rpc/api/main/jboss-jaxrpc-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="/web-impl/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="web-impl"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/web-impl/WebContent/resources/view/elements">
+   <libraries>
+    <library class="composite">
+     <id class="model-object"
+      path="FileSystems/WEB-ROOT/resources/view/elements" project="web-impl"/>
+     <attributes>
+      <entry name="uri">
+       <value-info value="http://java.sun.com/jsf/composite/view/elements"/>
+      </entry>
+     </attributes>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/test.xhtml">
+      <id class="model-object" path="/test.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="test"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_index_main.xhtml">
+      <id class="model-object" path="/_index_main.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_index_main"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_painmedicine.xhtml">
+      <id class="model-object" path="/_body_painmedicine.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_painmedicine"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_contact.xhtml">
+      <id class="model-object" path="/_contact.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_contact"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_coldandflu.xhtml">
+      <id class="model-object" path="/_body_coldandflu.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_coldandflu"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_header.xhtml">
+      <id class="model-object" path="/_header.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_header"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body.xhtml">
+      <id class="model-object" path="/_body.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_scripts.xhtml">
+      <id class="model-object" path="/_scripts.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_scripts"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_slidebar.xhtml">
+      <id class="model-object" path="/_slidebar.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_slidebar"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_sliders.xhtml">
+      <id class="model-object" path="/_sliders.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_sliders"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_antiallergic.xhtml">
+      <id class="model-object" path="/_body_antiallergic.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_antiallergic"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_antibiotic.xhtml">
+      <id class="model-object" path="/_body_antibiotic.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_antibiotic"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_syrup.xhtml">
+      <id class="model-object" path="/_body_syrup.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_syrup"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_register_body.xhtml">
+      <id class="model-object" path="/_register_body.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_register_body"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_footer.xhtml">
+      <id class="model-object" path="/_footer.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_footer"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_head.xhtml">
+      <id class="model-object" path="/_head.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_head"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_prescription.xhtml">
+      <id class="model-object" path="/_prescription.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_prescription"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_suplement.xhtml">
+      <id class="model-object" path="/_body_suplement.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_suplement"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_top.xhtml">
+      <id class="model-object" path="/_top.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_top"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_transaction_body.xhtml">
+      <id class="model-object" path="/_transaction_body.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_transaction_body"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_body_vitamins.xhtml">
+      <id class="model-object" path="/_body_vitamins.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_body_vitamins"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+     <component class="composite" path="/web-impl/WebContent/resources/view/elements/_transaction_product.xhtml">
+      <id class="model-object" path="/_transaction_product.xhtml" project="web-impl"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="_transaction_product"/>
+       </entry>
+       <entry name="description"/>
+       <entry name="component-class"/>
+       <entry name="bodycontent"/>
+       <entry name="component-type"/>
+      </attributes>
+     </component>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/picketbox/main/picketbox-commons-1.0.0.final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
+  <path value="E:/Java EE/WorkspacePharmacyFinal/web-impl/WebContent/WEB-INF/lib/bluesky-1.0.10.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-client-3.0.11.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/ws/rs/api/main/jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/mail/api/main/javax.mail-1.5.3.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/resource/api/main/jboss-connector-api_1.7_spec-1.0.0.Final.jar"/>
+  <path value="E:/Java EE/WildflyPharmacyFinal/wildfly-9.0.2.Final/modules/system/layers/base/javax/ejb/api/main/jboss-ejb-api_3.2_spec-1.0.0.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource declaration="true" name="%3;" path="%2"/>
+   <linked-resource name="%5;" path="%4"/>
+   <linked-resource name="%1;" path="%6"/>
+   <linked-resource declaration="true" name="%7;" path="%6"/>
+   <linked-resource name="%5;%10;" path="%8"/>
+   <linked-resource declaration="true" name="%9;" path="%8"/>
+   <linked-resource name="%5;" path="%11"/>
+   <linked-resource declaration="true" name="%12;" path="%11"/>
+   <linked-resource declaration="true" name="%13;" path="%1"/>
+   <linked-resource declaration="true" name="%15;" path="%14"/>
+   <linked-resource name="%5;%10;" path="%16"/>
+   <linked-resource declaration="true" name="%17;" path="%5"/>
+   <linked-resource declaration="true" name="%18;" path="%10"/>
+   <linked-resource name="%14;" path="%19"/>
+   <linked-resource name="%14;" path="%20"/>
+   <linked-resource declaration="true" name="%21;" path="%20"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core">
+   <linked-resource name="%23;%24;%25;%26;%27;" path="%22"/>
+   <linked-resource name="%29;%30;" path="%28"/>
+   <linked-resource name="%29;%30;" path="%31"/>
+   <linked-resource name="%23;%24;%25;%27;%33;" path="%32"/>
+   <linked-resource name="%29;%30;" path="%34"/>
+   <linked-resource name="%36;%23;%24;%25;%27;" path="%35"/>
+   <linked-resource name="%23;%24;%25;%27;%38;" path="%37"/>
+   <linked-resource name="%29;%30;" path="%39"/>
+   <linked-resource name="%23;%41;%24;%25;%27;" path="%40"/>
+   <linked-resource name="%29;%30;" path="%42"/>
+   <linked-resource name="%29;%30;" path="%43"/>
+   <linked-resource name="%29;%30;" path="%44"/>
+   <linked-resource name="%29;%30;" path="%45"/>
+   <linked-resource name="%29;%30;" path="%46"/>
+   <linked-resource name="%30;" path="%47"/>
+   <linked-resource name="%49;%23;%24;%25;%27;" path="%48"/>
+   <linked-resource name="%30;" path="%50"/>
+   <linked-resource name="%29;%30;" path="%51"/>
+   <linked-resource name="%23;%24;%25;%27;%53;" path="%52"/>
+   <linked-resource name="%29;%30;" path="%54"/>
+   <linked-resource name="%23;%24;%25;%27;%56;" path="%55"/>
+   <linked-resource name="%29;%30;" path="%57"/>
+   <linked-resource name="%29;%30;" path="%58"/>
+   <linked-resource name="%29;%30;" path="%59"/>
+   <linked-resource name="%29;%30;" path="%60"/>
+   <linked-resource name="%29;%30;" path="%61"/>
+   <linked-resource name="%63;%23;%24;%25;%27;" path="%62"/>
+   <linked-resource name="%29;%30;" path="%64"/>
+   <linked-resource name="%23;%24;%25;%66;%27;" path="%65"/>
+   <linked-resource name="%29;%30;" path="%67"/>
+   <linked-resource name="%29;%30;" path="%68"/>
+   <linked-resource name="%23;%24;%70;%25;%27;" path="%69"/>
+   <linked-resource name="%29;%30;" path="%71"/>
+   <linked-resource name="%73;%23;%24;%74;%25;%27;%75;" path="%72"/>
+  </core>
+  <el>
+   <linked-el length="12" name="%76" offset="1844" path="%44"/>
+   <linked-el length="67" name="%76" offset="2007" path="%44"/>
+   <linked-el length="12" name="%77" offset="1671" path="%44"/>
+   <linked-el length="67" name="%77" offset="2007" path="%44"/>
+   <linked-el length="15" name="%15" offset="1017" path="%28"/>
+   <linked-el length="72" name="%15" offset="1899" path="%28"/>
+   <linked-el length="58" name="%15" offset="494" path="%28"/>
+   <linked-el length="107" name="%15" offset="621" path="%28"/>
+   <linked-el length="64" name="%15" offset="848" path="%28"/>
+   <linked-el length="15" name="%15" offset="1119" path="%28"/>
+   <linked-el length="20" name="%15" offset="1263" path="%28"/>
+   <linked-el length="74" name="%15" offset="5582" path="%78"/>
+   <linked-el length="35" name="%11" offset="1014" path="%45"/>
+   <linked-el length="16" name="%79" offset="4035" path="%78"/>
+   <linked-el length="13" name="%79" offset="1873" path="%80"/>
+   <linked-el length="20" name="%79" offset="1490" path="%80"/>
+   <linked-el length="19" name="%79" offset="4088" path="%68"/>
+   <linked-el length="20" name="%79" offset="3782" path="%78"/>
+   <linked-el length="16" name="%79" offset="2640" path="%80"/>
+   <linked-el length="24" name="%79" offset="4210" path="%68"/>
+   <linked-el length="12" name="%79" offset="4556" path="%78"/>
+   <linked-el length="20" name="%79" offset="1368" path="%80"/>
+   <linked-el length="46" name="%79" offset="1738" path="%78"/>
+   <linked-el length="19" name="%79" offset="3889" path="%71"/>
+   <linked-el length="10" name="%79" offset="1125" path="%80"/>
+   <linked-el length="15" name="%79" offset="789" path="%42"/>
+   <linked-el length="19" name="%79" offset="3953" path="%31"/>
+   <linked-el length="13" name="%79" offset="3933" path="%78"/>
+   <linked-el length="10" name="%79" offset="3491" path="%78"/>
+   <linked-el length="24" name="%79" offset="4188" path="%71"/>
+   <linked-el length="19" name="%79" offset="4120" path="%67"/>
+   <linked-el length="11" name="%79" offset="4511" path="%78"/>
+   <linked-el length="37" name="%79" offset="1567" path="%78"/>
+   <linked-el length="12" name="%79" offset="3627" path="%78"/>
+   <linked-el length="12" name="%79" offset="2810" path="%80"/>
+   <linked-el length="19" name="%79" offset="4130" path="%34"/>
+   <linked-el length="19" name="%79" offset="4126" path="%46"/>
+   <linked-el length="24" name="%79" offset="4242" path="%67"/>
+   <linked-el length="24" name="%79" offset="4248" path="%46"/>
+   <linked-el length="17" name="%79" offset="2049" path="%80"/>
+   <linked-el length="19" name="%79" offset="4126" path="%61"/>
+   <linked-el length="10" name="%79" offset="1024" path="%80"/>
+   <linked-el length="19" name="%79" offset="3911" path="%68"/>
+   <linked-el length="12" name="%79" offset="3887" path="%78"/>
+   <linked-el length="24" name="%79" offset="4248" path="%61"/>
+   <linked-el length="24" name="%79" offset="4252" path="%34"/>
+   <linked-el length="16" name="%79" offset="2313" path="%80"/>
+   <linked-el length="16" name="%79" offset="4411" path="%78"/>
+   <linked-el length="47" name="%79" offset="4669" path="%78"/>
+   <linked-el length="19" name="%79" offset="4968" path="%45"/>
+   <linked-el length="17" name="%79" offset="1934" path="%80"/>
+   <linked-el length="12" name="%79" offset="2705" path="%80"/>
+   <linked-el length="19" name="%79" offset="3949" path="%61"/>
+   <linked-el length="12" name="%79" offset="1298" path="%80"/>
+   <linked-el length="13" name="%79" offset="1557" path="%80"/>
+   <linked-el length="44" name="%79" offset="1417" path="%78"/>
+   <linked-el length="15" name="%79" offset="4362" path="%78"/>
+   <linked-el length="19" name="%79" offset="3943" path="%67"/>
+   <linked-el length="19" name="%79" offset="3729" path="%78"/>
+   <linked-el length="12" name="%79" offset="1193" path="%80"/>
+   <linked-el length="19" name="%79" offset="3953" path="%34"/>
+   <linked-el length="22" name="%79" offset="4252" path="%78"/>
+   <linked-el length="31" name="%79" offset="850" path="%42"/>
+   <linked-el length="19" name="%79" offset="4066" path="%71"/>
+   <linked-el length="20" name="%79" offset="1198" path="%42"/>
+   <linked-el length="36" name="%79" offset="1253" path="%78"/>
+   <linked-el length="38" name="%79" offset="2533" path="%78"/>
+   <linked-el length="21" name="%79" offset="4197" path="%78"/>
+   <linked-el length="24" name="%79" offset="5267" path="%45"/>
+   <linked-el length="19" name="%79" offset="5145" path="%45"/>
+   <linked-el length="19" name="%79" offset="4130" path="%31"/>
+   <linked-el length="15" name="%79" offset="1119" path="%28"/>
+   <linked-el length="50" name="%79" offset="4852" path="%78"/>
+   <linked-el length="22" name="%79" offset="2114" path="%80"/>
+   <linked-el length="17" name="%79" offset="4085" path="%78"/>
+   <linked-el length="22" name="%79" offset="2240" path="%80"/>
+   <linked-el length="15" name="%79" offset="1017" path="%28"/>
+   <linked-el length="40" name="%79" offset="1903" path="%78"/>
+   <linked-el length="15" name="%79" offset="922" path="%59"/>
+   <linked-el length="24" name="%79" offset="4252" path="%31"/>
+   <linked-el length="20" name="%79" offset="1263" path="%28"/>
+   <linked-el length="36" name="%79" offset="2046" path="%78"/>
+   <linked-el length="11" name="%79" offset="3582" path="%78"/>
+   <linked-el length="19" name="%79" offset="3949" path="%46"/>
+   <linked-el length="9" name="%79" offset="3448" path="%78"/>
+   <linked-el length="15" name="%79" offset="687" path="%42"/>
+   <linked-el length="35" name="%12" offset="1014" path="%45"/>
+   <linked-el length="72" name="%14" offset="1899" path="%28"/>
+   <linked-el length="58" name="%14" offset="494" path="%28"/>
+   <linked-el length="107" name="%14" offset="621" path="%28"/>
+   <linked-el length="64" name="%14" offset="848" path="%28"/>
+   <linked-el length="74" name="%14" offset="5582" path="%78"/>
+   <linked-el length="32" name="%7" offset="1644" path="%57"/>
+   <linked-el length="35" name="%7" offset="1992" path="%57"/>
+   <linked-el length="34" name="%7" offset="983" path="%57"/>
+   <linked-el length="31" name="%7" offset="634" path="%57"/>
+   <linked-el length="32" name="%7" offset="1337" path="%57"/>
+   <linked-el length="35" name="%7" offset="2441" path="%57"/>
+   <linked-el length="49" name="%81" offset="3072" path="%51"/>
+   <linked-el length="49" name="%81" offset="1157" path="%82"/>
+   <linked-el length="27" name="%81" offset="899" path="%82"/>
+   <linked-el length="26" name="%81" offset="2798" path="%51"/>
+   <linked-el length="107" name="%21" offset="621" path="%28"/>
+   <linked-el length="52" name="%21" offset="1535" path="%28"/>
+   <linked-el length="67" name="%2" offset="2007" path="%44"/>
+   <linked-el length="19" name="%18" offset="3949" path="%61"/>
+   <linked-el length="19" name="%18" offset="4088" path="%68"/>
+   <linked-el length="60" name="%18" offset="4401" path="%46"/>
+   <linked-el length="24" name="%18" offset="4210" path="%68"/>
+   <linked-el length="38" name="%18" offset="2827" path="%78"/>
+   <linked-el length="60" name="%18" offset="4341" path="%71"/>
+   <linked-el length="64" name="%18" offset="3759" path="%68"/>
+   <linked-el length="19" name="%18" offset="3889" path="%71"/>
+   <linked-el length="19" name="%18" offset="3943" path="%67"/>
+   <linked-el length="60" name="%18" offset="4395" path="%67"/>
+   <linked-el length="19" name="%18" offset="3953" path="%34"/>
+   <linked-el length="19" name="%18" offset="3953" path="%31"/>
+   <linked-el length="60" name="%18" offset="4405" path="%34"/>
+   <linked-el length="60" name="%18" offset="4401" path="%61"/>
+   <linked-el length="60" name="%18" offset="4405" path="%31"/>
+   <linked-el length="19" name="%18" offset="4066" path="%71"/>
+   <linked-el length="56" name="%18" offset="3745" path="%71"/>
+   <linked-el length="24" name="%18" offset="4188" path="%71"/>
+   <linked-el length="46" name="%18" offset="2659" path="%78"/>
+   <linked-el length="19" name="%18" offset="4120" path="%67"/>
+   <linked-el length="19" name="%18" offset="4130" path="%31"/>
+   <linked-el length="19" name="%18" offset="4130" path="%34"/>
+   <linked-el length="19" name="%18" offset="4126" path="%46"/>
+   <linked-el length="24" name="%18" offset="4242" path="%67"/>
+   <linked-el length="24" name="%18" offset="4248" path="%46"/>
+   <linked-el length="61" name="%18" offset="3800" path="%46"/>
+   <linked-el length="59" name="%18" offset="3796" path="%67"/>
+   <linked-el length="64" name="%18" offset="3801" path="%31"/>
+   <linked-el length="50" name="%18" offset="4852" path="%78"/>
+   <linked-el length="63" name="%18" offset="3802" path="%34"/>
+   <linked-el length="19" name="%18" offset="4126" path="%61"/>
+   <linked-el length="19" name="%18" offset="3911" path="%68"/>
+   <linked-el length="24" name="%18" offset="4252" path="%31"/>
+   <linked-el length="24" name="%18" offset="4248" path="%61"/>
+   <linked-el length="61" name="%18" offset="3800" path="%61"/>
+   <linked-el length="24" name="%18" offset="4252" path="%34"/>
+   <linked-el length="60" name="%18" offset="4363" path="%68"/>
+   <linked-el length="43" name="%18" offset="3004" path="%78"/>
+   <linked-el length="47" name="%18" offset="4669" path="%78"/>
+   <linked-el length="19" name="%18" offset="3949" path="%46"/>
+   <linked-el length="67" name="%3" offset="2007" path="%44"/>
+   <linked-el length="17" name="%83" offset="589" path="%82"/>
+   <linked-el length="23" name="%83" offset="2452" path="%51"/>
+   <linked-el length="21" name="%83" offset="1300" path="%44"/>
+   <linked-el length="49" name="%83" offset="3072" path="%51"/>
+   <linked-el length="67" name="%83" offset="2007" path="%44"/>
+   <linked-el length="49" name="%83" offset="1157" path="%82"/>
+   <linked-el length="16" name="%9" offset="4035" path="%78"/>
+   <linked-el length="13" name="%9" offset="1873" path="%80"/>
+   <linked-el length="20" name="%9" offset="1490" path="%80"/>
+   <linked-el length="20" name="%9" offset="3782" path="%78"/>
+   <linked-el length="16" name="%9" offset="2640" path="%80"/>
+   <linked-el length="12" name="%9" offset="4556" path="%78"/>
+   <linked-el length="56" name="%9" offset="1028" path="%42"/>
+   <linked-el length="50" name="%9" offset="600" path="%80"/>
+   <linked-el length="20" name="%9" offset="1368" path="%80"/>
+   <linked-el length="46" name="%9" offset="1738" path="%78"/>
+   <linked-el length="10" name="%9" offset="1125" path="%80"/>
+   <linked-el length="15" name="%9" offset="789" path="%42"/>
+   <linked-el length="13" name="%9" offset="3933" path="%78"/>
+   <linked-el length="10" name="%9" offset="3491" path="%78"/>
+   <linked-el length="11" name="%9" offset="4511" path="%78"/>
+   <linked-el length="37" name="%9" offset="1567" path="%78"/>
+   <linked-el length="12" name="%9" offset="3627" path="%78"/>
+   <linked-el length="12" name="%9" offset="2810" path="%80"/>
+   <linked-el length="17" name="%9" offset="2049" path="%80"/>
+   <linked-el length="10" name="%9" offset="1024" path="%80"/>
+   <linked-el length="12" name="%9" offset="3887" path="%78"/>
+   <linked-el length="16" name="%9" offset="2313" path="%80"/>
+   <linked-el length="16" name="%9" offset="4411" path="%78"/>
+   <linked-el length="33" name="%9" offset="3260" path="%78"/>
+   <linked-el length="47" name="%9" offset="4669" path="%78"/>
+   <linked-el length="17" name="%9" offset="1934" path="%80"/>
+   <linked-el length="12" name="%9" offset="2705" path="%80"/>
+   <linked-el length="12" name="%9" offset="1298" path="%80"/>
+   <linked-el length="13" name="%9" offset="1557" path="%80"/>
+   <linked-el length="29" name="%9" offset="2188" path="%78"/>
+   <linked-el length="32" name="%9" offset="802" path="%59"/>
+   <linked-el length="44" name="%9" offset="1417" path="%78"/>
+   <linked-el length="15" name="%9" offset="4362" path="%78"/>
+   <linked-el length="19" name="%9" offset="3729" path="%78"/>
+   <linked-el length="38" name="%9" offset="2322" path="%78"/>
+   <linked-el length="12" name="%9" offset="1193" path="%80"/>
+   <linked-el length="22" name="%9" offset="4252" path="%78"/>
+   <linked-el length="31" name="%9" offset="850" path="%42"/>
+   <linked-el length="20" name="%9" offset="1198" path="%42"/>
+   <linked-el length="36" name="%9" offset="1253" path="%78"/>
+   <linked-el length="38" name="%9" offset="2533" path="%78"/>
+   <linked-el length="21" name="%9" offset="4197" path="%78"/>
+   <linked-el length="50" name="%9" offset="4852" path="%78"/>
+   <linked-el length="22" name="%9" offset="2114" path="%80"/>
+   <linked-el length="17" name="%9" offset="4085" path="%78"/>
+   <linked-el length="22" name="%9" offset="2240" path="%80"/>
+   <linked-el length="40" name="%9" offset="1903" path="%78"/>
+   <linked-el length="15" name="%9" offset="922" path="%59"/>
+   <linked-el length="33" name="%9" offset="454" path="%80"/>
+   <linked-el length="32" name="%9" offset="566" path="%42"/>
+   <linked-el length="36" name="%9" offset="2046" path="%78"/>
+   <linked-el length="11" name="%9" offset="3582" path="%78"/>
+   <linked-el length="9" name="%9" offset="3448" path="%78"/>
+   <linked-el length="15" name="%9" offset="687" path="%42"/>
+   <linked-el length="45" name="%17" offset="951" path="%67"/>
+   <linked-el length="44" name="%17" offset="4533" path="%45"/>
+   <linked-el length="46" name="%17" offset="1130" path="%61"/>
+   <linked-el length="60" name="%17" offset="4401" path="%46"/>
+   <linked-el length="45" name="%17" offset="948" path="%71"/>
+   <linked-el length="56" name="%17" offset="1028" path="%42"/>
+   <linked-el length="60" name="%17" offset="4341" path="%71"/>
+   <linked-el length="45" name="%17" offset="951" path="%46"/>
+   <linked-el length="45" name="%17" offset="948" path="%68"/>
+   <linked-el length="45" name="%17" offset="4354" path="%45"/>
+   <linked-el length="45" name="%17" offset="951" path="%34"/>
+   <linked-el length="45" name="%17" offset="951" path="%31"/>
+   <linked-el length="46" name="%17" offset="1130" path="%67"/>
+   <linked-el length="60" name="%17" offset="4395" path="%67"/>
+   <linked-el length="45" name="%17" offset="951" path="%61"/>
+   <linked-el length="46" name="%17" offset="1124" path="%71"/>
+   <linked-el length="60" name="%17" offset="4405" path="%34"/>
+   <linked-el length="60" name="%17" offset="4401" path="%61"/>
+   <linked-el length="60" name="%17" offset="4405" path="%31"/>
+   <linked-el length="46" name="%17" offset="1124" path="%68"/>
+   <linked-el length="46" name="%17" offset="1130" path="%31"/>
+   <linked-el length="46" name="%17" offset="1130" path="%34"/>
+   <linked-el length="59" name="%17" offset="1427" path="%45"/>
+   <linked-el length="24" name="%17" offset="5267" path="%45"/>
+   <linked-el length="63" name="%17" offset="5460" path="%45"/>
+   <linked-el length="45" name="%17" offset="655" path="%64"/>
+   <linked-el length="19" name="%17" offset="5145" path="%45"/>
+   <linked-el length="46" name="%17" offset="4696" path="%45"/>
+   <linked-el length="45" name="%17" offset="4835" path="%45"/>
+   <linked-el length="60" name="%17" offset="4363" path="%68"/>
+   <linked-el length="46" name="%17" offset="831" path="%64"/>
+   <linked-el length="19" name="%17" offset="4968" path="%45"/>
+   <linked-el length="46" name="%17" offset="1130" path="%46"/>
+   <linked-el length="44" name="%13" offset="867" path="%78"/>
+   <linked-el length="64" name="%13" offset="6053" path="%78"/>
+   <linked-el length="43" name="%13" offset="613" path="%78"/>
+   <linked-el length="46" name="%13" offset="720" path="%78"/>
+   <linked-el length="49" name="%13" offset="3072" path="%51"/>
+   <linked-el length="74" name="%13" offset="868" path="%45"/>
+   <linked-el length="35" name="%13" offset="1938" path="%51"/>
+   <linked-el length="49" name="%13" offset="1157" path="%82"/>
+   <linked-el length="48" name="%13" offset="2934" path="%57"/>
+   <linked-el length="45" name="%13" offset="430" path="%78"/>
+   <linked-el length="36" name="%13" offset="5799" path="%78"/>
+   <linked-el length="45" name="%13" offset="811" path="%45"/>
+   <linked-el length="44" name="%1" offset="867" path="%78"/>
+   <linked-el length="64" name="%1" offset="6053" path="%78"/>
+   <linked-el length="43" name="%1" offset="613" path="%78"/>
+   <linked-el length="46" name="%1" offset="720" path="%78"/>
+   <linked-el length="49" name="%1" offset="3072" path="%51"/>
+   <linked-el length="74" name="%1" offset="868" path="%45"/>
+   <linked-el length="35" name="%1" offset="1938" path="%51"/>
+   <linked-el length="49" name="%1" offset="1157" path="%82"/>
+   <linked-el length="48" name="%1" offset="2934" path="%57"/>
+   <linked-el length="45" name="%1" offset="430" path="%78"/>
+   <linked-el length="36" name="%1" offset="5799" path="%78"/>
+   <linked-el length="45" name="%1" offset="811" path="%45"/>
+   <linked-el length="36" name="%8" offset="1253" path="%78"/>
+   <linked-el length="38" name="%8" offset="2533" path="%78"/>
+   <linked-el length="37" name="%8" offset="1567" path="%78"/>
+   <linked-el length="29" name="%8" offset="2188" path="%78"/>
+   <linked-el length="50" name="%8" offset="600" path="%80"/>
+   <linked-el length="32" name="%8" offset="802" path="%59"/>
+   <linked-el length="44" name="%8" offset="1417" path="%78"/>
+   <linked-el length="46" name="%8" offset="1738" path="%78"/>
+   <linked-el length="40" name="%8" offset="1903" path="%78"/>
+   <linked-el length="33" name="%8" offset="454" path="%80"/>
+   <linked-el length="38" name="%8" offset="2322" path="%78"/>
+   <linked-el length="32" name="%8" offset="566" path="%42"/>
+   <linked-el length="33" name="%8" offset="3260" path="%78"/>
+   <linked-el length="36" name="%8" offset="2046" path="%78"/>
+   <linked-el length="74" name="%84" offset="5582" path="%78"/>
+   <linked-el length="28" name="%84" offset="5289" path="%78"/>
+   <linked-el length="32" name="%85" offset="1644" path="%57"/>
+   <linked-el length="35" name="%85" offset="1992" path="%57"/>
+   <linked-el length="34" name="%85" offset="983" path="%57"/>
+   <linked-el length="31" name="%85" offset="634" path="%57"/>
+   <linked-el length="32" name="%85" offset="1337" path="%57"/>
+   <linked-el length="35" name="%85" offset="2441" path="%57"/>
+   <linked-el length="45" name="%5" offset="951" path="%67"/>
+   <linked-el length="44" name="%5" offset="4533" path="%45"/>
+   <linked-el length="46" name="%5" offset="1130" path="%61"/>
+   <linked-el length="60" name="%5" offset="4401" path="%46"/>
+   <linked-el length="45" name="%5" offset="948" path="%71"/>
+   <linked-el length="56" name="%5" offset="1028" path="%42"/>
+   <linked-el length="60" name="%5" offset="4341" path="%71"/>
+   <linked-el length="45" name="%5" offset="951" path="%46"/>
+   <linked-el length="45" name="%5" offset="948" path="%68"/>
+   <linked-el length="45" name="%5" offset="4354" path="%45"/>
+   <linked-el length="45" name="%5" offset="951" path="%34"/>
+   <linked-el length="45" name="%5" offset="951" path="%31"/>
+   <linked-el length="46" name="%5" offset="1130" path="%67"/>
+   <linked-el length="60" name="%5" offset="4395" path="%67"/>
+   <linked-el length="45" name="%5" offset="951" path="%61"/>
+   <linked-el length="46" name="%5" offset="1124" path="%71"/>
+   <linked-el length="60" name="%5" offset="4405" path="%34"/>
+   <linked-el length="60" name="%5" offset="4401" path="%61"/>
+   <linked-el length="60" name="%5" offset="4405" path="%31"/>
+   <linked-el length="46" name="%5" offset="1124" path="%68"/>
+   <linked-el length="46" name="%5" offset="1130" path="%31"/>
+   <linked-el length="46" name="%5" offset="1130" path="%34"/>
+   <linked-el length="59" name="%5" offset="1427" path="%45"/>
+   <linked-el length="63" name="%5" offset="5460" path="%45"/>
+   <linked-el length="45" name="%5" offset="655" path="%64"/>
+   <linked-el length="46" name="%5" offset="4696" path="%45"/>
+   <linked-el length="45" name="%5" offset="4835" path="%45"/>
+   <linked-el length="60" name="%5" offset="4363" path="%68"/>
+   <linked-el length="46" name="%5" offset="831" path="%64"/>
+   <linked-el length="46" name="%5" offset="1130" path="%46"/>
+   <linked-el length="32" name="%6" offset="1644" path="%57"/>
+   <linked-el length="35" name="%6" offset="1992" path="%57"/>
+   <linked-el length="34" name="%6" offset="983" path="%57"/>
+   <linked-el length="31" name="%6" offset="634" path="%57"/>
+   <linked-el length="32" name="%6" offset="1337" path="%57"/>
+   <linked-el length="35" name="%6" offset="2441" path="%57"/>
+   <linked-el length="107" name="%20" offset="621" path="%28"/>
+   <linked-el length="52" name="%20" offset="1535" path="%28"/>
+   <linked-el length="46" name="%10" offset="2659" path="%78"/>
+   <linked-el length="64" name="%10" offset="3801" path="%31"/>
+   <linked-el length="50" name="%10" offset="4852" path="%78"/>
+   <linked-el length="63" name="%10" offset="3802" path="%34"/>
+   <linked-el length="61" name="%10" offset="3800" path="%61"/>
+   <linked-el length="38" name="%10" offset="2827" path="%78"/>
+   <linked-el length="43" name="%10" offset="3004" path="%78"/>
+   <linked-el length="47" name="%10" offset="4669" path="%78"/>
+   <linked-el length="64" name="%10" offset="3759" path="%68"/>
+   <linked-el length="61" name="%10" offset="3800" path="%46"/>
+   <linked-el length="59" name="%10" offset="3796" path="%67"/>
+   <linked-el length="56" name="%10" offset="3745" path="%71"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_footer" value="%23"/>
+  <alias
+   path="/web-api/src/pl/kielce/tu/pharmacy/web/back/UserBean.java" value="%0"/>
+  <alias path="defaultPrescriptionActionBean" value="%15"/>
+  <alias path="subject" value="%77"/>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_scripts" value="%25"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_register_body.xhtml" value="%57"/>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_head" value="%27"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/managed/DefaultPrescriptionActionBean.java" value="%14"/>
+  <alias path="password" value="%81"/>
+  <alias path="/web-impl/WebContent/login.xhtml" value="%82"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_antibiotic.xhtml" value="%46"/>
+  <alias
+   path="/web-api/src/pl/kielce/tu/pharmacy/web/back/PrescriptionBean.java" value="%19"/>
+  <alias path="/web-impl/WebContent/resources/view/elements/test.xhtml" value="%47"/>
+  <alias path="http://java.sun.com/jsf/composite:interface" value="%29"/>
+  <alias path="/web-impl/WebContent/resources/view/elements/_head.xhtml" value="%54"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_prescription.xhtml" value="%28"/>
+  <alias path="/web-impl/WebContent/contact.xhtml" value="%65"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_antiallergic.xhtml" value="%68"/>
+  <alias path="defaultProductActionBean" value="%18"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_prescription" value="%38"/>
+  <alias path="defaultTransactionActionBean" value="%17"/>
+  <alias path="defaultUserActionBean" value="%13"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_painmedicine" value="%41"/>
+  <alias path="/web-impl/WebContent/antibiotic.xhtml" value="%62"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_slidebar" value="%74"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/managed/DefaultUserActionBean.java" value="%1"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/back/DefaultProductBean.java" value="%8"/>
+  <alias path="/web-impl/WebContent/filtr.xhtml" value="%80"/>
+  <alias path="prescriptionCode" value="%84"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_transaction_body" value="%33"/>
+  <alias path="/web-impl/WebContent/syrup.xhtml" value="%35"/>
+  <alias path="/core-api/src/pl/kielce/tu/pharmacy/core/model/User.java" value="%85"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_antibiotic" value="%63"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_index_main" value="%73"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_antiallergic" value="%49"/>
+  <alias path="/web-impl/WebContent/antiallergic.xhtml" value="%48"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_sliders.xhtml" value="%43"/>
+  <alias path="/web-impl/WebContent/resources/view/elements/_top.xhtml" value="%51"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_coldandflu" value="%26"/>
+  <alias
+   path="/web-api/src/pl/kielce/tu/pharmacy/web/back/TransactionBean.java" value="%4"/>
+  <alias path="/web-impl/WebContent/index.xhtml" value="%72"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/back/DefaultUserBean.java" value="%6"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/back/DefaultPrescriptionBean.java" value="%20"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_coldandflu.xhtml" value="%34"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_contact.xhtml" value="%44"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_transaction_product.xhtml" value="%59"/>
+  <alias path="/web-impl/WebContent/transaction.xhtml" value="%32"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_suplement.xhtml" value="%61"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_transaction_body.xhtml" value="%45"/>
+  <alias path="/web-impl/WebContent/register.xhtml" value="%52"/>
+  <alias path="Message" value="%76"/>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_top" value="%24"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_syrup.xhtml" value="%71"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/back/DefaultTransactionBean.java" value="%11"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_vitamins" value="%56"/>
+  <alias path="defaultTransactionBean" value="%12"/>
+  <alias
+   path="/core-api/src/pl/kielce/tu/pharmacy/core/model/Product.java" value="%79"/>
+  <alias path="http://java.sun.com/jsf/composite:implementation" value="%30"/>
+  <alias path="/web-impl/WebContent/logged.xhtml" value="%78"/>
+  <alias path="defaultUserBean" value="%7"/>
+  <alias path="defaultPrescriptionBean" value="%21"/>
+  <alias path="/web-impl/WebContent/resources/view/elements/_body.xhtml" value="%58"/>
+  <alias path="/web-impl/WebContent/prescription.xhtml" value="%37"/>
+  <alias path="/web-impl/src/pl/kielce/tu/pharmacy/web/mail/Mail.java" value="%2"/>
+  <alias path="/web-impl/WebContent/vitamins.xhtml" value="%55"/>
+  <alias path="mailBean" value="%3"/>
+  <alias path="email" value="%83"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_header.xhtml" value="%50"/>
+  <alias path="defaultProductBean" value="%9"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_syrup" value="%36"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_slidebar.xhtml" value="%64"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_footer.xhtml" value="%60"/>
+  <alias path="/web-impl/WebContent/painmedicine.xhtml" value="%40"/>
+  <alias
+   path="/web-api/src/pl/kielce/tu/pharmacy/web/back/ProductBean.java" value="%16"/>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_sliders" value="%75"/>
+  <alias path="/web-impl/WebContent/supplement.xhtml" value="%69"/>
+  <alias path="/web-impl/WebContent/coldandflu.xhtml" value="%22"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_painmedicine.xhtml" value="%31"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/managed/DefaultTransactionActionBean.java" value="%5"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_index_main.xhtml" value="%42"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_body_vitamins.xhtml" value="%67"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_body_suplement" value="%70"/>
+  <alias path="http://java.sun.com/jsf/composite/view/elements:_contact" value="%66"/>
+  <alias
+   path="/web-impl/WebContent/resources/view/elements/_scripts.xhtml" value="%39"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/view/elements:_register_body" value="%53"/>
+  <alias
+   path="/web-impl/src/pl/kielce/tu/pharmacy/web/managed/DefaultProductActionBean.java" value="%10"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/composite/view/elements">
+   <prefix>ele</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/composite">
+   <prefix>composite</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+ </uris>
+</kb-project>

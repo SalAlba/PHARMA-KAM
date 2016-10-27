@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+	<!-- <composite:attribute name="nmLbl" />-->
+</composite:interface>
+
+<composite:implementation>
+	<!-- Sidebar ================================================== -->
+	<div id="sidebar" class="span3">
+		<div class="well well-small">
+			<a id="myCart" href="transaction.xhtml"> <h:graphicImage
+				name="webroot/images/ico-cart.png" alt="cart" />
+					
+				<h:outputText id="size" value="#{defaultTransactionActionBean.sizeOfCart}" >
+				</h:outputText> Items in your cart 
+				<span class="badge badge-warning pull-right">
+					<h:outputText id="price" value="#{defaultTransactionActionBean.priceOfCart}" >
+						<f:convertNumber minFractionDigits="2" />
+					</h:outputText>
+				</span>
+			</a>
+		</div>
+		<ul id="sideManu" class="nav nav-tabs nav-stacked">
+			<li class="subMenu"><a> Basic medicines</a>
+				<ul style="display: none">
+					<li><h:outputLink value="supplement.xhtml">Supplement</h:outputLink></li>
+					<li><h:outputLink value="coldandflu.xhtml">Cold and flu</h:outputLink></li>
+					<li><h:outputLink value="painmedicine.xhtml">Pain medicine</h:outputLink></li>
+					<li><h:outputLink value="vitamins.xhtml">Vitamins</h:outputLink></li>
+					<li><h:outputLink value="antiallergic.xhtml">Anti allergic</h:outputLink></li>
+					<li><h:outputLink value="antibiotic.xhtml">Antibiotic</h:outputLink></li>
+					<li><h:outputLink value="syrup.xhtml">Syrup</h:outputLink></li>
+				</ul></li>
+			<li class="subMenu"><a> For him</a>
+				<ul style="display: none">
+					<li><h:outputLink value="supplement.xhtml">Supplement</h:outputLink></li>
+					<li><h:outputLink value="coldandflu.xhtml">Cold and flu</h:outputLink></li>
+					<li><h:outputLink value="painmedicine.xhtml">Pain medicine</h:outputLink></li>
+					<li><h:outputLink value="vitamins.xhtml">Vitamins</h:outputLink></li>
+					<li><h:outputLink value="antiallergic.xhtml">Anti allergic</h:outputLink></li>
+					<li><h:outputLink value="antibiotic.xhtml">Antibiotic</h:outputLink></li>
+					<li><h:outputLink value="syrup.xhtml">Syrup</h:outputLink></li>
+				</ul></li>
+			<li class="subMenu"><a> For her</a>
+				<ul style="display: none">
+					<li><h:outputLink value="supplement.xhtml">Supplement</h:outputLink></li>
+					<li><h:outputLink value="coldandflu.xhtml">Cold and flu</h:outputLink></li>
+					<li><h:outputLink value="painmedicine.xhtml">Pain medicine</h:outputLink></li>
+					<li><h:outputLink value="vitamins.xhtml">Vitamins</h:outputLink></li>
+					<li><h:outputLink value="antiallergic.xhtml">Anti allergic</h:outputLink></li>
+					<li><h:outputLink value="antibiotic.xhtml">Antibiotic</h:outputLink></li>
+					<li><h:outputLink value="syrup.xhtml">Syrup</h:outputLink></li>
+				</ul></li>
+			<li class="subMenu"><a> Baby</a>
+				<ul style="display: none">
+					<li><h:outputLink value="supplement.xhtml">Supplement</h:outputLink></li>
+					<li><h:outputLink value="coldandflu.xhtml">Cold and flu</h:outputLink></li>
+					<li><h:outputLink value="painmedicine.xhtml">Pain medicine</h:outputLink></li>
+					<li><h:outputLink value="vitamins.xhtml">Vitamins</h:outputLink></li>
+					<li><h:outputLink value="antiallergic.xhtml">Anti allergic</h:outputLink></li>
+					<li><h:outputLink value="antibiotic.xhtml">Antibiotic</h:outputLink></li>
+					<li><h:outputLink value="syrup.xhtml">Syrup</h:outputLink></li>
+				</ul></li>
+		</ul>
+		<br />
+		<div class="thumbnail">
+			<h:graphicImage name="webroot/images/payment_methods.png"
+				title="Bootshop Payment Methods" alt="Payments Methods" />
+			<div class="caption">
+				<h5>Payment Methods</h5>
+			</div>
+		</div>
+	
+	<br />
+	<div class="thumbnail">
+		<h:graphicImage name="webroot/images/suppus.png" title="supp up"
+			alt="Our Supports" />
+		<div class="caption">
+			<h5>Thanks for support us!</h5>
+		</div>
+	</div>
+
+	</div>
+	<!-- Sidebar end=============================================== -->
+</composite:implementation>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+	<!-- <composite:attribute name="nmLbl" />-->
+</composite:interface>
+
+<composite:implementation>
+	<div id="footerSection">
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<a>Kamil Bodziechowski</a> <a>Piotr Curyło</a> <a>Salem
+						Albarudy</a> <a>Mateusz Błaszczyk</a>
+				</div>
+				<div id="socialMedia" class="pull-right">
+					<h:outputLink value="https://www.fb.com">
+						<h:graphicImage width="100" height="100"
+							name="webroot/images/social/fb.png" title="facebook"
+							alt="facebook" />
+						<!-- https://www.facebook.com/ABBC-Dentistry-1706968559523930/ -->
+					</h:outputLink>
+					<h:outputLink value="https://www.instagram.com">
+						<h:graphicImage width="100" height="100"
+							name="webroot/images/social/in.png" title="twitter" alt="twitter" />
+					</h:outputLink>
+					<h:outputLink value="https://www.twitter.com">
+						<h:graphicImage width="100" height="100"
+							name="webroot/images/social/tw.png" title="youtube" alt="youtube" />
+					</h:outputLink>
+				</div>
+			</div>
+		</div>
+		<!-- Container End -->
+	</div>
+</composite:implementation>
+</html>

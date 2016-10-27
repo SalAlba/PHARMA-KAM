@@ -1,0 +1,27 @@
+1465332743755	Delete elements
+1465332749866	Delete elements
+1465332755913	Delete elements
+1465332797791	Rename package 'pharmacy.core.dao'
+1465332864231	Rename package 'pl.tu.kielce.pharmacy.core.dao'
+1465332881339	Rename package 'pharmacy.core.model'
+1465332893567	Rename package 'pharmacy.core.manager'
+1465373570254	Rename type 'InitialContext'
+1465373581966	Extract interface 'InitialContext'
+1465373590944	Move compilation unit
+1465373603967	Rename type 'ServiceLocator'
+1465373700326	Extract interface 'ServiceLocator'
+1465373714102	Move compilation unit
+1465374912492	Copy compilation unit
+1465374917835	Delete element
+1465375283568	Pull up members to 'InitialContext'
+1465375620643	Rename type 'ServiceLocator'
+1465375635501	Extract interface 'ServiceLocator'
+1465375644018	Move compilation unit
+1465421190503	Delete element
+1465421205180	Delete element
+1465421405360	Rename type 'ServiceLocator'
+1465421421334	Extract interface 'ServiceLocator'
+1465421429205	Move compilation unit
+1465421501433	Pull up members to 'ServiceLocator'
+1465422042946	Pull up members to 'ServiceLocator'
+1465422616373	Pull up members to 'ServiceLocator'

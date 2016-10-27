@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite"
+	xmlns:p="http://primefaces.org/ui">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet"
+	href="http://code.ionicframework.com/1.0.0/css/ionic.css" />
+<script src="http://code.ionicframework.com/1.0.0/js/ionic.bundle.js"></script>
+</head>
+<body>
+
+	<composite:interface>
+		<!-- <composite:attribute name="nmLbl" />-->
+	</composite:interface>
+
+	<composite:implementation>
+		<div>
+	
+			<h2>Product in your cart:</h2>
+
+			<ui:repeat var="prod" value="#{defaultProductBean.products}">
+				<li class="span2">
+					<div class="thumbnail">
+						<a> <h:graphicImage name="#{prod.link}" alt="" />
+						</a>
+						<div class="caption"></div>
+					</div>
+				</li>
+			</ui:repeat>
+		</div>
+	</composite:implementation>
+</body>
+</html>

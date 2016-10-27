@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite"
+	xmlns:p="http://primefaces.org/ui">
+
+<composite:interface>
+	<!-- <composite:attribute name="nmLbl" />-->
+</composite:interface>
+
+<composite:implementation>
+
+	<h:form>
+	<c:choose>
+		<c:when test="#{defaultPrescriptionActionBean.productPrescription > 0}">
+				
+				<h:commandButton class="btn btn-success"
+							action="#{defaultPrescriptionActionBean.completePrescription(defaultPrescriptionBean.prescriptionCode)}" 
+							value="Complete prescription"/>
+				<h2>Product on your prescription:</h2>
+				<div>
+				<ui:repeat var="prod" value="#{defaultPrescriptionActionBean.selectProductOnPrescirption()}">
+							
+					<li class="span3">
+						<div class="thumbnail">
+							
+							<h:graphicImage name="#{prod.link}" alt="" />
+								
+							<div class="caption">	
+								<p><b> <h:outputText value="#{prod.name}" /></b> </p>
+								<h4 style="text-align: center">
+								<a class="btn btn-inverse" href="#"> <h:outputText
+									value="#{prod.price} PLN" />
+								</a>
+								</h4>
+							</div>
+						</div>
+					</li>
+				</ui:repeat>
+			</div>
+		</c:when>
+		<c:otherwise>
+				<p:outputLabel for="prescriptionCode" value="Prescription code: " />
+				<p:inputText id="prescriptionCode" value="#{defaultPrescriptionBean.prescriptionCode}"
+					validatorMessage="Prescription code: Wrong prescription code. Should contain only the digits 0 to 9 and have 9 digits."> 
+					<f:validateRegex pattern="^[0-9]{9}$" />
+				</p:inputText>
+				<p:outputLabel></p:outputLabel>
+			
+				<h:commandButton class="btn btn-lg btn-success" value="Check" 
+					action="#{defaultPrescriptionActionBean.setCheckProductPrescription()}" 
+					style="width:"></h:commandButton>
+			
+		</c:otherwise>
+	</c:choose>
+	</h:form>
+</composite:implementation>
+</html>

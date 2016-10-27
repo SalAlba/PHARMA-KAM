@@ -1,0 +1,16 @@
+1466424961215	Encapsulate field 'transaction'
+1466424979802	Pull up members to 'UserActionBean'
+1466452123111	Delete element
+1466452158277	Delete elements
+1466453327151	Encapsulate field 'payment'
+1466453339007	Pull up members to 'TransactionBean'
+1466453964485	Rename type 'CardHandler'
+1466491547163	Rename package 'pl.kielce.tu.pharmacy.web.chain'
+1466498496830	Pull up members to 'PrescriptionActionBean'
+1466498775109	Encapsulate field 'productPrescription'
+1466498797338	Pull up members to 'PrescriptionActionBean'
+1466499171050	Pull up members to 'PrescriptionActionBean'
+1466499720795	Encapsulate field 'presciptionCode'
+1466499752329	Encapsulate field 'prescriptionCode'
+1466499772119	Pull up members to 'PrescriptionBean'
+1466502479977	Pull up members to 'PrescriptionActionBean'

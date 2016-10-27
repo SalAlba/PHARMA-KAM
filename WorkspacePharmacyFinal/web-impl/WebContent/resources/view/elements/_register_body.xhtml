@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+	<!-- <composite:attribute name="nmLbl" />-->
+</composite:interface>
+
+<composite:implementation>
+<div class="span4">
+</div>
+<div class="span4">
+<h1>Register:</h1>
+	<h:form>
+		<p:panel style="border:none; margin:auto; "> 
+			<h:panelGrid columns="2" id="matchGrid" cellpadding="5">
+				<p:outputLabel for="name" value="Name: "/>
+				<p:inputText id="name" value="#{defaultUserBean.user.name}" required="true" 
+					validatorMessage="Name: Wrong name. Name should only contain uppercase and lowercase letters and contain from 3 to 32 letters."> 
+					<f:validateRegex pattern="^[A-Za-z]{3,32}$" />
+				</p:inputText>
+				<p:outputLabel for="surname" value="Surname: " />
+				<p:inputText id="surname" value="#{defaultUserBean.user.surname}" required="true"
+					validatorMessage="Surname: Wrong surname. Surname should only contain uppercase and lowercase letters and contain from 3 to 32 letters."> 
+					<f:validateRegex pattern="^[A-Za-z]{3,32}$" />
+				</p:inputText>
+				<p:outputLabel for="pesel" value="PESEL: " />
+				<p:inputText id="pesel" value="#{defaultUserBean.user.pesel}" required="true"
+					validatorMessage="PESEL: Wrong PESEL. should contain only the digits 0 to 9 and have 11 digits."> 
+					<f:validateRegex pattern="^[0-9]{11}$" />
+				</p:inputText>
+				<p:outputLabel for="email" value="Email: " />
+				<p:inputText id="email" value="#{defaultUserBean.user.email}" required="true"
+					validatorMessage="Email: Wrong email. Use pattern: 'name@address.com'">
+					<f:validateRegex pattern="^[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$" />
+				</p:inputText>
+				<h:outputLabel for="pwd1" value="Password: *" />
+       		 	<p:password id="pwd1" value="#{defaultUserBean.user.password}" match="pwd2" label="Password 1" required="true" feedback="true" 
+       		 		validatorMessage="Password: Wrong password. Password should contain uppercase and lowercase letters, digits 0 to 9 and !@#$^*_+';:,./?-"> 
+					<f:validateRegex pattern="^[A-Za-z0-9!@#$^*_+';:,./?-]{6,16}$" />
+				</p:password>
+        		<h:outputLabel for="pwd2" value="Repeat password: *" />
+        		<p:password id="pwd2" value="#{defaultUserBean.user.password}" label="Password 2" required="true"
+        			validatorMessage="Password: Wrong password. Password should contain uppercase and lowercase letters, digits 0 to 9 and !@#$^*_+';:,./?-"> 
+					<f:validateRegex pattern="^[A-Za-z0-9!@#$^*_+';:,./?-]{6,16}$" />
+        		</p:password>
+				<p:outputLabel></p:outputLabel>
+				
+				<h:form>
+	    			<p:captcha label="Captcha" />
+	    			<h:commandButton class="btn btn-primary" value="Register user" action="#{defaultUserActionBean.registerUser()}"
+					icon="ui-icon-check" ajax="false">
+					</h:commandButton>
+				</h:form>
+				
+			</h:panelGrid>
+		</p:panel> 
+	</h:form>
+</div>
+</composite:implementation>
+</html>

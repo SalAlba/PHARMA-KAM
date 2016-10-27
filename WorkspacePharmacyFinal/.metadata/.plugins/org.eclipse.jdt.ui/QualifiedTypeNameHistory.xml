@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.shared.AbstractTransactionFactory"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.manager.UserManager"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.manager.TransactionManager"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.manager.PrescriptionManager"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.DefaultProduct"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.DefaultTransaction"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.DefaultPrescription"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.Transaction"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.service.InitialContext"/>
+<fullyQualifiedTypeName name="javax.naming.ServiceUnavailableException"/>
+<fullyQualifiedTypeName name="javax.ejb.EJBHome"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.javax.rmi.PortableRemoteObject"/>
+<fullyQualifiedTypeName name="javax.rmi.PortableRemoteObject"/>
+<fullyQualifiedTypeName name="javax.naming.NamingException"/>
+<fullyQualifiedTypeName name="javax.xml.rpc.ServiceException"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.DefaultUser"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.service.ServiceLocator"/>
+<fullyQualifiedTypeName name="org.primefaces.context.RequestContext"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.awt.Component"/>
+<fullyQualifiedTypeName name="java.awt.Component.BaselineResizeBehavior"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.decorator.Discount"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.decorator.Decorator"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.User"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.chain.PaymentHandler"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.chain.CreditCardHandler"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.chain.PayPalHandler"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.chain.MoneyTransferHandler"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.web.back.ProductBean"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.Product"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.manager.ProductManager"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+<fullyQualifiedTypeName name="pl.kielce.tu.pharmacy.core.model.Prescription"/>
+</qualifiedTypeNameHistroy>

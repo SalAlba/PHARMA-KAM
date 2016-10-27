@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"> 
+
+<h:head>
+	<meta charset="UTF-8"></meta>
+    <title>Pharmacy</title>
+</h:head> 
+<h:body> 
+
+	<h:form>
+		
+		<p:panel header="Log in"> 
+			<h:panelGrid columns="2" id="matchGrid" cellpadding="5">
+				<p:outputLabel for="email" value="Email: " />
+				<p:inputText id="email" value="#{email}"
+					validatorMessage="Email: Wrong email. Use pattern: 'name@address.com'">
+					<f:validateRegex pattern="^[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$" />
+				</p:inputText>
+				<h:outputLabel for="pwd1" value="Password: " />
+       		 	<p:password id="pwd1" value="#{password}"
+       		 		validatorMessage="Password: wrong password."> 
+					<f:validateRegex pattern="^[A-Za-z0-9!@#$^*_+';:,./?-]{6,16}$" />
+				</p:password>
+				<p:outputLabel></p:outputLabel>
+				
+				<p:commandButton value="Log In"
+					action="#{defaultUserActionBean.login(email, password)}"></p:commandButton>
+				
+			</h:panelGrid>
+		</p:panel> 
+	</h:form>
+	
+	<p:separator/>
+	
+	<h:form>
+   		<p:commandButton action="register.xhtml?faces-redirect=true" value="Homepage" />
+   	</h:form>
+
+</h:body> 
+</html>
